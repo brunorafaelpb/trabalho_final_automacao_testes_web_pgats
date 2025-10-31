@@ -1,0 +1,25 @@
+{
+  "name": "trabalho_final_automacao_testes_web_pgats",
+  "version": "1.0.0",
+  "description": "Repositório com o exercício final da disciplina de Automação de Testes de Interface Web, da pós-graduação em Automação de Testes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test-product": "cypress run --spec cypress/e2e/specs/product.cy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunorafaelpb/trabalho_final_automacao_testes_web_pgats.git"
+  },
+  "author": "Bruno Dutra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunorafaelpb/trabalho_final_automacao_testes_web_pgats/issues"
+  },
+  "homepage": "https://github.com/brunorafaelpb/trabalho_final_automacao_testes_web_pgats#readme",
+  "dependencies": {
+    "cypress": "^15.5.0",
+    "@faker-js/faker": "^10.1.0",
+    "cypress-mochawesome-reporter": "^4.0.2"
+  }
+}
