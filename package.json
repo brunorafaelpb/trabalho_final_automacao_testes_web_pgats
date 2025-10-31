@@ -4,7 +4,7 @@
   "description": "Repositório com o exercício final da disciplina de Automação de Testes de Interface Web, da pós-graduação em Automação de Testes.",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run",
+    "test": "cypress test",
     "test-product": "cypress run --spec cypress/e2e/specs/product.cy.js"
   },
   "repository": {
