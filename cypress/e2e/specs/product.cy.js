@@ -17,4 +17,11 @@ describe('Testes de Produto', () => {
         product.clickFirstProduct();
         product.checkProductDetailsPage();
     });
+
+    it('TC09 - Buscar produto', () => {
+        menu.navigateToProducts()
+        product.checkAllProductsPage();
+        product.searchProduct("white")
+        product.checkProductListSearched("white")
+    });
 })
