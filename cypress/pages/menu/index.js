@@ -6,6 +6,10 @@ class Menu {
     navigateToProducts() {
         cy.get('a[href="/products"]').click()
     }
+
+    navigateToCart() {
+        cy.get('.navbar-nav > li > a[href="/view_cart"]').click();
+    }
 }
 
 export default new Menu()

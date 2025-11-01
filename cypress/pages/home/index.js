@@ -5,6 +5,10 @@ class Home {
         cy.get('#subscribe').click()
     }
 
+    deleteAccount(){
+        cy.get('a[href="/delete_account"]').click()
+    }
+
     checkHomePage(){
         cy.contains('h1', 'AutomationExercise').should('be.visible')
     }
